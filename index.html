@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arantza Martínez Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet"
+        media="print" onload="this.media='all'" />
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet" />
+    </noscript>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/global.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__brand">
+            <img class="header__logo" src="Assets/logotipo.svg" alt="Arantza Martínez Portfolio" width="120"
+                height="40" />
+        </div>
+
+        <button type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="site-nav"
+            class="header__toggle">
+            <img src="Assets/toggle.svg" alt="" width="24" height="24" />
+        </button>
+
+        <nav id="site-nav" class="header__nav">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+
+        <button class="header__cta" aria-label="Download resume">Resume</button>
+
+
+    </header>
+
+    <main>
+        <section class="hero">
+            <img class="hero_image" src="Assets/isotipo_color.svg" alt="Arantza Martínez logo" width="320" height="200"
+                fetchpriority="high" decoding="async" />
+            <div class="hero_content">
+                <h1 class="hero_tittle">
+                    Hello I'm <strong>Arantza Martínez.</strong> <br />
+                    Graphic <span class="outlined">Designer</span> <br />
+                    Based in <strong>Mexico</strong>
+                </h1>
+                <p class="hero_description">
+                    I'm Arantza Martínez, a Mexican designer in progress currently exploring the world of UX and
+                    digital
+                    experiences (which I'm loving). Curious by nature, I enjoy experimenting with ideas, systems and
+                    styles to create thoughtful and visually engaging designs. I like to mix creativity with
+                    structure,
+                    always
+                    learning, exploring and building along the way.
+                </p>
+
+                <div class="hero__social">
+                    <a href="https://www.facebook.com/" class="social-link">
+                        <div class="social-icon"> <img src="Assets/icon_facebook.svg" alt="Facebook" width="24"
+                                height="24"> </div>
+                    </a>
+                    <a href="https://mx.linkedin.com/" class="social-link">
+                        <div class="social-icon"> <img src="Assets/icon_linkedin.svg" alt="LinkedIn" width="24"
+                                height="24"> </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="section-container">
+                <h2 class="skills__tittle    section-tittle">
+                    My <strong>Skills</strong>
+                </h2>
+
+                <div class="skills__grid">
+                    <div class="skill-card">
+                        <div class="skill-card__icon">
+                            <img loading="lazy" decoding="async" src="Assets/icon_ilustrator.svg" alt="AdobeIlustrator" />
+                        </div>
+                        <p class="skill-card__label"> Adobe Illustrator </p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-card__icon">
+                            <img loading="lazy" decoding="async" src="Assets/icon_photoshop.svg" alt="AdobePhotoshop" />
+                        </div>
+                        <p class="skill-card__label"> Adobe Photoshop </p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-card__icon">
+                            <img loading="lazy" decoding="async" src="Assets/icon_after_effects.svg" alt="AdobeAfterEffects" />
+                        </div>
+                        <p class="skill-card__label"> After Effects </p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-card__icon">
+                            <img loading="lazy" decoding="async" src="Assets/icon_figma.svg" alt="Figma" />
+                        </div>
+                        <p class="skill-card__label"> Figma </p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-card__icon">
+                            <img loading="lazy" decoding="async" src="Assets/icon_make.svg" alt="Make" />
+                        </div>
+                        <p class="skill-card__label"> Make </p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-card__icon">
+                            <img loading="lazy" decoding="async" src="Assets/icon_cursor.svg" alt="Cursor" />
+                        </div>
+                        <p class="skill-card__label"> Cursor </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience" id="experience">
+            <div class="section-container">
+                <h2 class="experience__tittle section-tittle">
+                    My <strong> Experience </strong>
+                </h2>
+
+                <div class="experience-card">
+                    <div class="experience-card__logo">
+                        <img loading="lazy" decoding="async" class="logo_default" src="Assets/logo_ave.svg"
+                            alt="AVE Wheighing annd Inspection Systems" />
+                    </div>
+
+                    <h3 class="experience-card__role">
+                        Digital Design Intern </h3>
+                    <p class="experience-card__date"> Sep 2024 - Present </p>
+
+                    <p class="experience-card__description">
+                        I’ve been working on creating visual content for social media, where I explore different styles
+                        while keeping a strong focus on clarity, engagement, and brand consistency.
+                        I also collaborated in the development of a clinic’s website, contributing to its design system
+                        and helping shape a more cohesive and user-friendly experience. Alongside this, I supported the
+                        implementation of a chatbot, focusing on improving user interaction and making digital
+                        communication more accessible.
+                        Through this experience, I’ve been able to blend creativity with structure, designing not just
+                        for how things look, but for how they work and connect with people.
+                    </p>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-card__logo">
+                        <img loading="lazy" decoding="async" src="Assets/logo_gamam.svg" alt="Clinica Gamam" />
+                    </div>
+
+                    <h3 class="experience-card__role">
+                        Branding & Web Designer
+                    </h3>
+                    <p class="experience-card__date"> Dec 2023 - May 2024 </p>
+
+                    <p class="experience-card__description">
+                        During my time at AVE, I focused on developing and strengthening the brand’s visual identity,
+                        working on branding elements and stationery design to ensure consistency across all touchpoints.
+                        I also contributed to the design of the brand’s website using WordPress, helping translate the
+                        visual identity into a functional and cohesive digital experience. This process allowed me to
+                        explore how branding extends beyond visuals into structure and usability.
+                        Through this experience, I deepened my understanding of how to build a brand from both a visual
+                        and digital perspective, balancing aesthetics with clarity and purpose.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-me" id="about">
+            <div class="section-container about-me__container">
+
+                <div class="about-me__image-wrapper">
+                    <img loading="lazy" decoding="async" src="Assets/about me_image_mobile.svg" alt="Ilustracion Ara" class="about-me__image" />
+                </div>
+
+                <div class="about-me__content">
+
+                    <h2 class="about-me__tittle section-tittle">
+                        About <strong> Me </strong>
+                    </h2>
+
+                    <div class="about-me__text">
+                        <p>
+                            I design things that people don’t just see — they feel, use, and remember.
+
+                            I’m a designer in progress with a strong interest in UX, digital experiences, and branding.
+                            I enjoy exploring how ideas take shape through visuals, but even more, how they work,
+                            connect, and make sense for the people interacting with them. For me, design is not only
+                            about making things look good, but about building systems that communicate clearly and feel
+                            intuitive.
+
+                            I’ve worked on creating visual content for social media, developing brand identities, and
+                            designing digital experiences through websites and interactive elements like chatbots. These
+                            projects have allowed me to experiment, refine my style, and understand how design lives
+                            across different platforms and touchpoints.
+
+                            I’m naturally curious, always trying new approaches and learning along the way — blending
+                            creativity with structure to create thoughtful, engaging, and functional solutions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="my-projects" id="projects">
+            <div class="section-container">
+                <h2 class="my-projects__tittle section-tittle">
+                    My <strong> Projects </strong>
+                </h2>
+
+
+                <article class="project-card">
+                    <div class="project-card__image-wrapper">
+                        <picture>
+                            <source srcset="Assets/mockup_feed-insta_01.webp" type="image/webp" />
+                            <img loading="lazy" decoding="async" src="Assets/mockup_feed-insta_01.jpg" alt="Project Image 01"
+                                class="project-card__image" sizes="(min-width: 768px) 50vw, 100vw" />
+                        </picture>
+                    </div>
+
+
+
+                    <div class="project-card__content">
+                        <span class="project-card__number">01</span>
+                        <h3 class="project-card__tittle">Instagram feed Design</h3>
+                        <p class="project-card__description">
+                            This project focused on designing an Instagram feed for GAMAM based on a template-driven
+                            system that ensures both visual consistency and ease of use.
+                            The main goal was to create a set of posts that could be easily recreated, making the
+                            content production process more efficient and sustainable over time. At the same time, the
+                            system was designed to maintain a strong and cohesive visual identity, understanding that
+                            Instagram is a highly visual and aspirational platform.
+                            To achieve this, I developed a combination of flexible templates: some for quotes and
+                            short-form content, others for carousels, and additional formats focused on lifestyle
+                            imagery. Each template follows a consistent visual language while allowing enough variation
+                            to keep the feed dynamic and engaging.
+                            The result is a scalable and adaptable content system that balances aesthetics,
+                            functionality, and brand coherence.
+                        </p>
+
+                        <a href="https://www.instagram.com/lab_gamam/?hl=es" class="project-card__readmore"
+                            aria-label="Open Instagram project">
+                            <img loading="lazy" decoding="async" src="Assets/readmore_icon.svg" alt="" width="40" height="40" />
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+
+
+                    <div class="project-card__image-wrapper">
+                        <picture>
+                            <source srcset="Assets/mockup_web_02.webp" type="image/webp" />
+                            <img loading="lazy" decoding="async" src="Assets/mockup_web_02.jpg" alt="Project Image 02"
+                                class="project-card__image" sizes="(min-width: 768px) 50vw, 100vw" />
+                        </picture>
+                    </div>
+
+
+                    <div class="project-card__content">
+                        <span class="project-card__number">02</span>
+                        <h3 class="project-card__tittle">Creation of a design system</h3>
+                        <p class="project-card__description">
+                            This project focused on the creation of a design system for GAMAM’s website, aimed at
+                            improving visual consistency, user experience, and overall performance.
+                            The starting point was identifying key issues within the existing site, such as inconsistent
+                            color usage, lack of cohesion across UI elements like cards, and an overall fragmented
+                            visual language. These inconsistencies not only affected the user experience, but also
+                            limited the site’s scalability and clarity.
+                            To address this, I developed a structured design system that defined clear guidelines for
+                            color, typography, spacing, and component design. Special attention was given to
+                            standardizing elements like cards and content blocks, ensuring they worked cohesively across
+                            different sections of the site.
+                            Additionally, the redesign considered SEO improvements, aligning the visual and structural
+                            updates with better content organization and usability practices.
+                            The result is a more unified, scalable, and user-friendly digital experience, where design
+                            decisions support both aesthetic consistency and functional performance.
+                        </p>
+
+                        <a href="https://www.figma.com/design/VuvEnEVjXJ7CARpmmrc0BW/Sistema-de-dise%C3%B1o?node-id=14-2&t=wNjomZykzgrsVHfX-1"
+                            class="project-card__readmore" aria-label="Open Figma design system">
+
+                            <img loading="lazy" decoding="async" src="Assets/readmore_icon.svg" alt="" width="40" height="40" />
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+
+
+                    <div class="project-card__image-wrapper">
+                        <picture>
+                            <source srcset="Assets/mockup_brand-i_03.webp" type="image/webp" />
+                            <img loading="lazy" decoding="async" src="Assets/mockup_brand-i_03.jpg" alt="Project Image 03"
+                                class="project-card__image" sizes="(min-width: 768px) 50vw, 100vw" />
+                        </picture>
+                    </div>
+
+
+                    <div class="project-card__content">
+                        <span class="project-card__number">03</span>
+                        <h3 class="project-card__tittle"> Personal Branding Design </h3>
+                        <p class="project-card__description">
+                            This project focused on the creation of my personal branding as a designer, with the goal of
+                            building a visual identity that reflects both my creative style and my approach to design.
+                            The process began by defining the core concept behind my brand — a balance between
+                            creativity and structure — which later translated into visual elements such as color,
+                            typography, and composition. I aimed to create an identity that feels clean and intentional,
+                            while still allowing space for exploration and personality.
+                            Each element of the branding system was designed to be flexible and adaptable across
+                            different platforms, from digital portfolios to social media, ensuring consistency while
+                            maintaining a dynamic visual presence.
+                            This project allowed me to better understand my own design perspective, not just in terms of
+                            aesthetics, but in how I communicate ideas and connect with others through design.
+                        </p>
+
+                        <a href="#" class="project-card__readmore"
+                            title="Replace with hosted PDF URL when available"
+                            aria-label="Personal branding PDF (add public URL when hosted)">
+
+                            <img loading="lazy" decoding="async" src="Assets/readmore_icon.svg" alt="" width="40" height="40" />
+                        </a>
+
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="testimonials" id="testimonials">
+            <div class="section-container">
+                <h2 class="testimonials__title section-tittle">
+                    My <strong>Testimonial</strong>
+                </h2>
+
+                <div class="testimonials__list">
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__header">
+                            <picture>
+                                <source srcset="Assets/pp_testimonials.webp" type="image/webp" />
+                                <img loading="lazy" decoding="async" src="Assets/pp_testimonials.jpg" alt="PP Testimonials Image"
+                                    class="testimonial-card__avatar" />
+                            </picture>
+
+                            <img loading="lazy" decoding="async" src="Assets/testimonials_quote.svg" alt=""
+                            class="testimonial-card__quote-icon"/>
+                         </div>
+
+                         <p class="testimonial-card__text">
+                            I recently had to jump on 10+ different calls across eight 
+                            different countries to find the right owner.
+                         </p>
+
+                         <div class="testimonial-card__footer">
+                            <h3 class="testimonial-card__name">Evren Shah</h3>
+                            <p class="testimonial-card__role">Designer</p>
+                          </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__header">
+                            <picture>
+                                <source srcset="Assets/pp_testimonials.webp" type="image/webp" />
+                                <img loading="lazy" decoding="async" src="Assets/pp_testimonials.jpg" alt="PP Testimonials Image"
+                                    class="testimonial-card__avatar" />
+                            </picture>
+
+                            <img loading="lazy" decoding="async" src="Assets/testimonials_quote.svg" alt=""
+                            class="testimonial-card__quote-icon"/>
+                         </div>
+
+                         <p class="testimonial-card__text">
+                            I recently had to jump on 10+ different calls across eight 
+                            different countries to find the right owner.
+                         </p>
+
+                         <div class="testimonial-card__footer">
+                            <h3 class="testimonial-card__name">Evren Shah</h3>
+                            <p class="testimonial-card__role">Designer</p>
+                          </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__header">
+                            <picture>
+                                <source srcset="Assets/pp_testimonials.webp" type="image/webp" />
+                                <img loading="lazy" decoding="async" src="Assets/pp_testimonials.jpg" alt="PP Testimonials Image"
+                                    class="testimonial-card__avatar" />
+                            </picture>
+
+                            <img loading="lazy" decoding="async" src="Assets/testimonials_quote.svg" alt=""
+                            class="testimonial-card__quote-icon"/>
+                         </div>
+
+                         <p class="testimonial-card__text">
+                            I recently had to jump on 10+ different calls across eight 
+                            different countries to find the right owner.
+                         </p>
+
+                         <div class="testimonial-card__footer">
+                            <h3 class="testimonial-card__name">Evren Shah</h3>
+                            <p class="testimonial-card__role">Designer</p>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="contact-me" id="contact">
+            <div class="section-container">
+
+                <div class="contact__info">
+                    <h1 class="contact-me-tittle">
+                       <strong>Let's</strong> <span class="outlined">talk</span> <strong> for 
+                        Something special</strong>
+                    </h1>
+    
+                    <p class="contact-me_description">
+                        I seek to push the limits of creativity to create high-engaging, 
+                        user-friendly, and memorable interactive experiences.
+                    </p> 
+                    <div class="contact__details">
+                        <a href="mailto:arantza.iveth@gmail.com" class="contact__email">
+                          arantza.iveth@gmail.com
+                        </a>
+                        <p class="contact__phone">55-1322-0483</p>
+                      </div>
+                 </div>
+
+                <div class="contact__form-wrapper">
+                    <form class="contact__form" action="#" method="post">
+                      <div class="form-group">
+                        <label class="visually-hidden" for="contact-name">Your name</label>
+                        <input
+                          id="contact-name"
+                          name="name"
+                          type="text"
+                          placeholder="Your name"
+                          class="contact__input"
+                          autocomplete="name"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label class="visually-hidden" for="contact-email">Email</label>
+                        <input
+                          id="contact-email"
+                          name="email"
+                          type="email"
+                          placeholder="Email"
+                          class="contact__input"
+                          inputmode="email"
+                          autocomplete="email"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label class="visually-hidden" for="contact-website">Your website (if any)</label>
+                        <input
+                          id="contact-website"
+                          name="website"
+                          type="text"
+                          placeholder="Your website (If exists)"
+                          class="contact__input"
+                          inputmode="url"
+                          autocomplete="url"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label class="visually-hidden" for="contact-phone">Your phone number</label>
+                        <input
+                          id="contact-phone"
+                          name="phone"
+                          type="text"
+                          placeholder="Your phone number"
+                          class="contact__input"
+                          inputmode="tel"
+                          autocomplete="tel"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label class="visually-hidden" for="contact-message">How can I help?</label>
+                        <textarea
+                          id="contact-message"
+                          name="message"
+                          placeholder="How can I help?*"
+                          class="contact__textarea"
+                          required
+                        ></textarea>
+                      </div>
+                      <div class="contact__actions">
+                        <button type="submit" class="contact__button">
+                          Get In Touch
+                        </button>
+                        
+                        <div class="contact__socials">
+                            <div class="hero__social">
+                                <a href="https://www.facebook.com/" class="social-link">
+                                    <div class="social-icon"> <img loading="lazy" decoding="async" src="Assets/icon_facebook.svg" alt="Facebook" width="24" height="24"> </div>
+                                </a>
+                                <a href="https://mx.linkedin.com/" class="social-link">
+                                    <div class="social-icon"> <img loading="lazy" decoding="async" src="Assets/icon_linkedin.svg" alt="LinkedIn" width="24" height="24"> </div>
+                                </a>
+                            </div>
+                        </div>
+                      </div>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+            <div class="footer__brand">
+                <img class="footer__logo" src="Assets/logotipo.svg" alt="Arantza Martínez Portfolio" width="120"
+                    height="40" />
+            </div>
+
+            <div class="content">
+                <p class="rights">
+                    @Arantza <br/>
+                    Made In Figma
+                </p>
+            </div>
+    </footer>
+    <script src="js_main.js" defer></script>
+</body>
+
+</html>

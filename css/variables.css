@@ -1,0 +1,84 @@
+:root {
+
+   /* =========================
+       TOKENS — BRAND
+    ========================= */
+
+   /* Pink */
+   --pink-400: #BF4062;
+   --pink-300: #E294A9;
+   --pink-200: #F5D6DF;
+   --pink-100: #FAEBEF;
+
+   /* Yellow */
+   --yellow-400: #CDC332;
+   --yellow-300: #E4DF91;
+   --yellow-200: #F5F3D6;
+   --yellow-100: #F8F7ED;
+
+   /* Blue */
+   --blue-400: #33A7CC;
+   --blue-300: #94D1E4;
+   --blue-200: #A8DFF0;
+   --blue-100: #D6EEF5;
+
+
+   /* =========================
+       TOKENS — NEUTRAL
+    ========================= */
+
+   --neutral-gray: #404040;
+   --neutral-white: #FFFFFF;
+   --primary-white: #FFFFFF;
+
+
+   /* =========================
+       TOKENS — ZINC
+    ========================= */
+
+   --zinc-100: #f4f4f5;
+   --zinc-200: #e4e4e7;
+   --zinc-300: #d4d4d8;
+   --zinc-500: #71717a;
+   --zinc-800: #27272a;
+
+
+   /* =========================
+       TOKENS — STATUS
+    ========================= */
+
+   --error-500: #ef4444;
+
+   /* Spacing */
+
+   --spacing-4: 4px;
+   --spacing-8: 8px;
+   --spacing-12: 12px;
+   --spacing-16: 16px;
+   --spacing-20: 20px;
+   --spacing-24: 24px;
+   --spacing-28: 28px;
+   --spacing-30: 30px;
+   --spacing-32: 32px;
+   --spacing-36: 36px;
+   --spacing-40: 40px;
+   --spacing-44: 44px;
+   --spacing-48: 48px;
+   --spacing-52: 52px;
+   --spacing-56: 56px;
+   --spacing-60: 60px;
+   --spacing-64: 64px;
+   --spacing-68: 68px;
+   --spacing-80: 80px;
+
+   --outline-width: 1px;
+   --max-width: 1280px;
+   --header-height: 90px;
+
+}
+
+@media (min-width: 768px) {
+   :root {
+      --outline-width: 3px;
+   }
+}
